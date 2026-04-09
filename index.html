@@ -3,38 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CDU Panel Interface</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .button {
-            padding: 10px 20px;
-            margin: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
-        .projects { margin-top: 20px; }
-    </style>
 </head>
 <body>
-    <h1>CDU Panel Interface</h1>
-    <div>
-        <button class="button">Button 1</button>
-        <button class="button">Button 2</button>
-        <button class="button">Button 3</button>
+    <div class="cdu-panel">
+        <div class="display-screen">
+            <h1>Display Screen</h1>
+        </div>
+        <div class="function-buttons">
+            <button>Func1</button>
+            <button>Func2</button>
+            <button>Func3</button>
+            <button>Func4</button>
+        </div>
+        <div class="numeric-buttons">
+            <button>A</button>
+            <button>B</button>
+            <button>C</button>
+            <button>D</button>
+            <button>E</button>
+            <button>F</button>
+            <button>G</button>
+            <button>H</button>
+        </div>
+        <div class="control-buttons">
+            <button>PREV</button>
+            <button>NEXT</button>
+            <button>CLR</button>
+            <button>DEL</button>
+        </div>
     </div>
-    <div class="projects">
-        <h2>MSFS Projects Display</h2>
-        <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-        </ul>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
